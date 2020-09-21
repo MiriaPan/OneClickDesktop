@@ -335,9 +335,8 @@ function install_reverse_proxy
 	read guacamole_hostname
 	cat > /etc/nginx/conf.d/guacamole.conf <<END
 server {
-        listen 80;
-        listen [::]:80;
-        server_name $guacamole_hostname;
+        listen 1315;
+        listen [::]:1315;
 
         access_log  /var/log/nginx/guac_access.log;
         error_log  /var/log/nginx/guac_error.log;
