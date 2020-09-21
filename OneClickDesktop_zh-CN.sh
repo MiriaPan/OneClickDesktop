@@ -398,7 +398,7 @@ function main
 		install_guacamole_web
 		configure_guacamole
 		install_desktop
-		install_reverse_proxy
+		#install_reverse_proxy
 	fi
 	echo 
 	echo "感谢您的使用！此脚本作者为https://qing.su"
